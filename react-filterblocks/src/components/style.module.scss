@@ -43,5 +43,9 @@
   .flexLocation {
     display: flex;
     gap: 5px;
+
+    p{
+      font: 400 16px "Inter";
+    }
   }
 }
