@@ -1,7 +1,7 @@
 import { Input, Button } from "@mantine/core";
 import style from "./style.module.scss";
 import { IconSearch } from "@tabler/icons-react";
-import Vacancies from "../components/Vacancies";
+import Vacancies from "../../Components/Vacancies/Vacancies";
 
 function Home() {
   return (

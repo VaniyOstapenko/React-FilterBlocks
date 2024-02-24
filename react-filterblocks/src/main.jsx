@@ -4,11 +4,14 @@ import App from "./App.jsx";
 import "./index.scss";
 import { MantineProvider } from "@mantine/core";
 import "@mantine/core/styles.css";
+import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <MantineProvider>
-      <App />
-    </MantineProvider>
+    <BrowserRouter>
+      <MantineProvider>
+        <App />
+      </MantineProvider>
+    </BrowserRouter>
   </React.StrictMode>
 );
