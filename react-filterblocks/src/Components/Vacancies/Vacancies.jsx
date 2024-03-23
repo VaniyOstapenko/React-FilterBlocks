@@ -35,7 +35,7 @@ function Vacancies() {
           ))}
         </div>
         <Pagination
-          total={Math.ceil(array.length / currentPage)}
+          total={Math.ceil(array.length / foundVacancyPage)}
           onChange={setCurrentPage}
           mt="sm"
         />
